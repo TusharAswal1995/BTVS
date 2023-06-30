@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "jsx": "react",
+      "paths": {
+        "*": ["src/*"],
+        "test/*": ["test/*"],
+        "underscore": ["lodash"],
+        "components": ["src/components"],
+        "screens": ["src/screens"],
+        "config": ["src/config"],
+        "actions": ["src/actions"],
+        "constants": ["src/constants"],
+        "helpers": ["src/helpers"],
+        "images": ["src/assets"],
+        "reducers": ["src/reducers"],
+        "store": ["src/store"],
+        "utilities": ["src/utils"],
+        "libraries": ["src/libraries"],
+        "saga": ["src/saga"],
+        "controllers": ["src/controllers"]
+
+      }
+    }
+  }
